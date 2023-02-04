@@ -1,18 +1,26 @@
 {
-  "name": "helios",
+  "name": "helioscli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chris-hly/helios.git"
+  },
   "keywords": [],
   "author": "chris-fang",
   "license": "ISC",
   "bin": {
-    "helios": "src/index.js"
+    "helioscli": "src/index.js"
   },
   "dependencies": {
     "commander": "^10.0.0"
+  },
+  "private": false,
+  "devDependencies": {
+    "current-git-branch": "^1.1.0"
   }
 }
